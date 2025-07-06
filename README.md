@@ -1,9 +1,9 @@
 ---
-title: README
-linter-yaml-title-alias: README
+title: Identity-Based Cryptographic Protocols
+linter-yaml-title-alias: Identity-Based Cryptographic Protocols
 date created: Tuesday, May 7th 2024, 22:10:12
-date modified: Friday, June 13th 2025, 23:26:57
-aliases: README
+date modified: Sunday, July 6th 2025, 01:42:10
+aliases: Identity-Based Cryptographic Protocols
 ---
 
 # Identity-Based Cryptographic Protocols
@@ -61,13 +61,13 @@ git clone <repository-url>
 cd identity-based-cryptographic-protocols
 ```
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run tests to verify installation:
+1. Run tests to verify installation:
 
 ```bash
 python -m pytest tests/
@@ -179,7 +179,7 @@ The Schnorr identification scheme is based on the discrete logarithm problem:
 
 ### Fiat-Shamir Transform
 
-Converts interactive proofs to non-interactive by replacing the verifier's challenge with a hash of the transcript:
+Converts interactive proofs to non-interactive by replacing the verifier’s challenge with a hash of the transcript:
 
 ```
 Challenge = Hash(Commitment || Public_Input)
@@ -211,13 +211,13 @@ We welcome contributions! Please follow these guidelines:
 pip install -r requirements-dev.txt
 ```
 
-2. Run linting:
+1. Run linting:
 
 ```bash
 flake8 src/ tests/
 ```
 
-3. Run type checking:
+1. Run type checking:
 
 ```bash
 mypy src/
