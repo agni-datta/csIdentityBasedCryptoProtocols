@@ -2,7 +2,7 @@
 title: Identity-Based Cryptographic Protocols
 linter-yaml-title-alias: Identity-Based Cryptographic Protocols
 date created: Tuesday, May 7th 2024, 22:10:12
-date modified: Friday, July 11th 2025, 19:17:23
+date modified: Thursday, July 17th 2025, 22:39:59
 aliases: Identity-Based Cryptographic Protocols
 ---
 
