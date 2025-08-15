@@ -1,18 +1,18 @@
 ---
-title: Identity-Based Cryptographic Protocols
-linter-yaml-title-alias: Identity-Based Cryptographic Protocols
+title: README
+linter-yaml-title-alias: README
 date created: Tuesday, May 7th 2024, 22:10:12
-date modified: Friday, July 25th 2025, 21:56:07
-aliases: Identity-Based Cryptographic Protocols
+date modified: Friday, August 15th 2025, 19:23:51
+aliases: README
 ---
 
-# Identity-Based Cryptographic Protocols
+## Identity-Based Cryptographic Protocols
 
-## Description
+### Description
 
 A comprehensive implementation of identity-based cryptographic protocols including Schnorr identification schemes, Fiat-Shamir transformations, and zero-knowledge proofs. This repository serves as a practical resource for studying and implementing modern cryptographic primitives.
 
-## Features
+### Features
 
 - Schnorr Identification Scheme
 - Fiat-Shamir Transform
@@ -21,7 +21,7 @@ A comprehensive implementation of identity-based cryptographic protocols includi
 - Zero-Knowledge Proofs
 - Analysis and benchmarking tools
 
-## Directory Structure
+### Directory Structure
 
 ```
 src/
@@ -37,7 +37,7 @@ src/
     └── test_protocols.py
 ```
 
-## Installation
+### Installation
 
 - Python 3.8+
 - pip
@@ -48,19 +48,19 @@ cd identity-based-crypto-protocols
 pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 
 - See code examples in the README for each protocol
 - Run tests with `python -m pytest tests/`
 
-## Contribution
+### Contribution
 
 We welcome contributions! Please fork, create a feature branch, and submit a pull request.
 
-## License
+### License
 
 This project is licensed under the GPL 3.0 License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+### Contact
 
 For questions and support, please contact: <agnidatta.org@gmail.com>
